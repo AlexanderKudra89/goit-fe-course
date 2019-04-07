@@ -6,12 +6,18 @@
     box-sizing: border-box;
 }
 
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
 
-#first-a{
-    color: #03a9f4;
+header{
+    padding-top: 77px;
+    padding-bottom: 103px;
 }
 
 a{
+    display: block;
     text-decoration: none;
     font-size: 14px;
     color: #aaaaaa;
@@ -19,45 +25,52 @@ a{
     text-transform: uppercase;
 }
 
+a:hover{
+    color: #03a9f4;
+}
+
 .menu{
     font-family: 'Playfair Display', serif;
     margin: 0 auto;
-    width: 800px;
     list-style: none;
-    margin-top: 77px; 
+    font-size: 0;
+    padding-left: 160px; 
 }
 
 .menu li{
-    display: inline; 
-    margin-left: 105px;
+    display: inline-block; 
+    margin-right: 105px;
 }
 
-main{
-    width: 1200px;
-    margin: 100px auto 0;
-    margin-left: 200px;
-    margin-bottom: 54px;
-    margin-top: 103px; 
+.menu li:last-child{
+    margin-right: 0;
 }
 
 section{
-    width: 500px;
-    display: inline-block; 
+    display: inline-block;
+    font-size: 0;
+    padding-bottom: 70px;
 }
 
-.step{
-    margin-left: 150px;
+article{
+    width: 420px;
+    display: inline-block;
+    margin-right: 60px;
+    margin-bottom: 54px; 
 }
 
-span{
-    font-family: 'Ubuntu', sans-serif;
-    display: block; 
+article:nth-child(2n){
+    margin-right: 0;
+}
+
+.p{
+    font-family: 'Ubuntu', sans-serif; 
     font-size: 14px;
     color: #c8c3b8;
     text-align: left;
     text-transform: uppercase;
+    margin-top: 32px;
     margin-bottom: 28px;
-    margin-top: 28px;
 }
 
 h2{
@@ -65,14 +78,11 @@ h2{
     font-size: 30px;
     color: #626262;
     text-align: left;
+    margin-bottom: 30px;
 }
 
 p{
     font-family: 'Playfair Display', serif;
-    margin-top: 34px;
-    margin-bottom: 130px;
-    width: 414px;
-    height: 63px;
     font-size: 14px;
     color: #949494;
     text-align: left;   
@@ -88,7 +98,9 @@ p{
     font-size: 20px;
     text-align: center;
     display: block;
-    margin: 108px auto 54px;
-    margin-top: 54px;
-    margin-bottom: 70px;
+    margin: 0 auto;
+}
+
+.button:hover{
+    cursor: pointer;
 }
