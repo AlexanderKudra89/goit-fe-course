@@ -65,9 +65,10 @@ li.menu-item:not(:last-child){
     color: #1abc9c;
 }
 
-main{
+.conteiner{
     width: 1140px;
     margin: 0 auto;
+    padding: 0 15рх;
 }
 
 .feature-product{    
@@ -107,9 +108,11 @@ main{
     margin-bottom: 30px;    
 }
 
-.product-img{
-    float: left;
-}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }
 
 .product-name{
     float: left;
@@ -189,8 +192,11 @@ main{
     margin-right: 30px;
 }
 
+.latest-items:nth-last-child(-n+4){
+    margin-bottom: 0; 
+}
+
 .latest-items-title{
-    float: left;
     font-family: "Open Sans";
     font-weight: 600;
     font-size: 18px;
@@ -208,7 +214,7 @@ main{
     background-color: #1abc9c;
 }
 
-.latest-info {
+.latest-info{
     float: left;
     font-family: "Open Sans";
     font-weight: 400;
@@ -219,7 +225,7 @@ main{
     margin-bottom: 18px;        
 }
 
-.latest-button {
+.latest-button{
     display: block;
     font-family: "Open Sans";
     text-decoration: none;
