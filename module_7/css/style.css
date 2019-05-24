@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* HEADER */
+
+  .navigation {
+      display: flex;
+      width: 930px;
+      min-height: 70px;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin: 0 auto;
+  }
+
+  .menu {
+      display: flex;
+      min-width: 480px;
+      min-height: 10px;
+      align-items: center;
+      list-style: none;
+      justify-content: space-between;
+  }
+
+  .menu-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+  }
+
+  .menu-link:hover {
+    color: #fed136;
+}
+
+.header {
+    margin-bottom: 120px;
+}
+
+/* HEADER */
+/* MAIN */
+
+.section-name {
+    display: flex;
+    min-height: 66px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.servises {
+    font-size: 40px;
+    color: #222222;
+    padding-bottom: 19px;
+}
+
+.proin {
+    font-size: 16px;
+    color: #777777;
+}
+
+.flex-conteiner-list {
+    width: 934px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.web-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.web-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    text-align: center;
+    width: 274px;
+    min-height: 184px;
+    margin-right: 56px;
+}
+
+.web-items::before {
+    position: absolute;
+    display: inline-block;
+    content: url(../img/E-Commerce.png);
+    top: 0;
+    left: 100px;
+}
+
+.web-items:nth-child(2)::before {
+    content: url(../img/Responsive.png);
+}
+
+.web-items:nth-child(3)::before {
+    content: url(../img/Security.png);
+}
+
+h3 {
+    color: #222222;
+}
+
+p {
+    color: #777777;
+}
+
+.contact {
+    min-height: 670px;
+    background-color: #222222;
+    padding-top: 105px;
+    position: relative;
+}
+
+.contact::after {
+    position: absolute;
+    display: inline-block;
+    content: url(../img/Map-img.png);
+    top: 120px;
+    right: 0;
+}
+
+.contact-name {
+    display: flex;
+    min-height: 70px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 75px;
+}
+
+.contact-us {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 23px;
+}
+
+.proin-iaculis {
+    font-size: 16px;
+    color: #777777;
+}
+
+/* FORM */
+
+.form {
+    height: 310px;
+    display: flex;
+    justify-content: center;
+}
+
+.singup-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 940px;
+    position: relative;
+}
+
+.singup-form input {
+    width: 455px;
+    height: 50px;
+    margin-right: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.singup-form input:nth-child(-n+2) {
+    margin-bottom: 30px;
+}
+
+.your-message {
+    width: 455px;
+    height: 210px;
+    resize: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.singup-form input[type='text']:valid,
+.singup-form input[type='email']:valid,
+.singup-form textarea:valid {
+    outline-color: green;
+}
+
+.singup-form input[type='text']:invalid,
+.singup-form input[type='email']:invalid,
+.singup-form textarea:invalid {
+    outline-color: red;
+}
+
+.form-button {
+    position: absolute;
+    width: 240px;
+    height: 66px;
+    background-color: #fed136;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    bottom: 0;
+    right: 350px;
+    cursor: pointer;
+}
+
+/* FORM */
+
+
+
+
+
+
