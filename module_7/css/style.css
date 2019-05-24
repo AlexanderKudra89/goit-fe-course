@@ -190,6 +190,10 @@ p {
     outline-color: red;
 }
 
+.subject {
+    outline: none;
+}
+
 .form-button {
     position: absolute;
     width: 240px;
