@@ -51,12 +51,11 @@ body {
 }
 
 .header {
-    max-width: 1440px;
+    max-width: 100%;
     background: url(../img/Screen_1_BG.png)center/cover no-repeat;
     color: #ffffff;
     padding: 20px 0 138px 0;
     margin: 0 auto; 
-    /* margin-bottom: 68px;    */
 }
 
 .navigation {
@@ -144,12 +143,6 @@ body {
     color: #333333;
     margin: 0 auto;
 }
-
-/* .list-conteiner {
-    width: 280px;
-    height: 1055px;
-    margin: 0 auto;
-} */
 
 .meet-partner {
     font-size: 22px;
