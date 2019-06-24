@@ -29,6 +29,8 @@
             box-sizing: border-box;
 }
 
+/* HEADER */
+
 .conteiner {
     width: 1200px;
     margin: 0 auto;
@@ -66,7 +68,7 @@
 }
 
 .menu-link {
-    display: flex;
+    display: block;
     position: relative;
     text-decoration: none;
     text-transform: uppercase;
@@ -76,6 +78,23 @@
     font-size: 14px;
     color: #ffffff;
     transition: color 200ms linear;
+}
+
+.menu-icon {
+    fill: #ffffff;
+    /* -webkit-transition: fill 200ms linear;
+    -o-transition: fill 200ms linear; */
+    transition: fill 200ms linear;
+}
+
+.menu-icon-cart {
+    width: 18px;
+    height: 15px;
+}
+
+.menu-icon-glass {
+    width: 18px;
+    height: 18px;
 }
 
 .menu-link:hover {
@@ -91,6 +110,7 @@
     background-color: #fce38a;
     left: 0;
     bottom: -10px;
+    /* transform: scaleX(0); */
     transition: 200ms linear;  
 }
 
@@ -129,4 +149,405 @@
     font-size: 14px;
     background-color: transparent;
     cursor: pointer;
+}
+
+/* HEADER */
+/* MAIN */
+
+.flex-conteiner {
+    display: flex;
+    min-height: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 66px;
+    padding-top: 42px;
+}
+
+.We-work-with {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: #333333;
+} 
+
+.Amazing-Services {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: #333333;
+}
+
+.flex-conteiner::after{
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 42px auto 0;
+    background-color: #f38181;
+}
+
+.section-conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.section-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* align-items: center; */
+    justify-content: space-around;
+    align-content: space-between;
+    margin-bottom: 90px;
+    height: 240px;
+}
+
+.section-items {
+    position: relative;
+    width: 330px;
+    padding-left: 60px;
+    /* margin-right: 70px; */
+    /* margin-bottom: 100px; */
+}
+
+.section-items::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 32px;
+    height: 32px;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.section-items-photography::before {
+    background-image: url(../img/icons/ALARM.png);
+}
+
+.section-items-design::before {
+    background-image: url(../img/icons/LINE\ GRAPH.png);
+}
+
+.section-items-creativity::before {
+    background-image: url(../img/icons/COMPUTER.png);
+}
+
+.section-items-seo::before {
+    background-image: url(../img/icons/BOOK\ 2.png);
+}
+
+.section-items-css::before {
+    background-image: url(../img/icons/HOME.png);
+}
+
+.section-items-digital::before {
+    background-image: url(../img/icons/IMAGE.png);
+}
+
+/* .section-items::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: '';
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: url(../img/icons/ALARM.png)
+}
+
+.section-items:nth-child(2)::before {
+    content: url(../img/icons/LINE\ GRAPH.png)
+}
+
+.section-items:nth-child(3)::before {
+    content: url(../img/icons/COMPUTER.png)
+}
+
+.section-items:nth-child(4)::before {
+    content: url(../img/icons/BOOK\ 2.png)
+}
+
+.section-items:nth-child(5)::before {
+    content: url(../img/icons/HOME.png)
+}
+
+.section-items:nth-child(6)::before {
+    content: url(../img/icons/IMAGE.png)
+} */
+
+h3 {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif; 
+}
+
+.section-items p {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #999999;
+}
+
+.Who-we-are .Meet-our-team {
+    color: #333333;
+}
+
+.Who-we-are {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.Meet-our-team {
+    font-size: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.section-card {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.paragraph-conteiner {
+    display: flex;
+    min-height: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 46px;
+    text-align: center;
+}
+
+.paragraph-conteiner:after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 42px auto 0;
+    background-color: #f38181;
+}
+
+.section-card .paragraph {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #999999;
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+/* CARDS */
+
+.our-team {
+    display: flex;
+    min-height: 555px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 82px;
+    text-align: center;
+}
+
+.team {
+    display: flex;
+    min-height: 555px;
+    width: 1215px;
+    list-style: none;
+
+}
+
+.card-name {
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+    color: #333333;
+}
+
+.card-profesion {
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: #b6b6b6;
+}
+
+.img-card {
+    margin-right: 27px;
+}
+
+/* CARDS OVERLAY */
+
+.card {
+    position: relative;
+}
+
+.card-overlay {
+    display: flex;
+    position: absolute;
+    width: 383px;
+    height: 473px;
+    background: linear-gradient( to top, rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100% );
+    opacity: 0;
+}
+
+.card:hover .card-overlay {
+    transform: translate(-10px, -10px);
+    box-shadow: 10px 10px #95e1d3;
+    opacity: 1;
+    transition: 200ms linear;
+}
+
+.icon-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+}
+
+.icon-link {
+    border: none;
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-right: 1px;
+    background-color: #fce38a;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-link:hover {
+    background-color: #f38181;
+    transition: fill 200ms linear;
+}
+
+.social-icon {
+    fill: #f38181;
+}
+
+.icon-link:hover .social-icon {
+    fill: #ffffff; 
+}
+
+.social-icon-facebook {
+    width: 13px;
+    height: 26px;
+}
+
+.social-icon-twitter {
+    width: 26px;
+    height: 22px;
+}
+
+.social-icon-pinterest {
+    width: 21px;
+    height: 26px;
+}
+
+.social-icon-instagram {
+    width: 26px;
+    height: 26px;
+}
+
+
+
+/* CARDS-OVERLAY */
+/* FOOTER */
+
+footer {
+    /* border-top: 1px solid #c3c3c3; */
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer-conteiner {
+    display: flex;
+    width: 1200px;
+    border-top: 1px solid #c3c3c3;
+}
+
+.MoGo {
+    color: #333;
+    align-self: center;
+    margin-right: 526px;
+}
+
+.Laaqiq {
+    text-decoration: none;
+    color: #f38181; 
+}
+
+.subscribe {
+    align-self: center;
+    display: flex;
+    justify-content: flex-end;    
+    height: 40px;
+}
+
+.subscribe-form {
+    width: 230px;
+    border: 1px solid #ccc;    
+    border-right-width: 0;
+    outline: none;
+    padding: 14px 12px 13px 12px;    
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;     
+    color: #ccc;  
+}
+
+.subscribe-form::placeholder {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;      
+    color: #ccc;
+}
+
+.subscribe-submit {
+    width: 150px;
+    background-color: #95e1d3;
+    border: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;     
+}
+
+/* FOOTER */
+
+@media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .page-header {
+        background-image: url(../img/Header_BG@2x.png);     
+    }
+
+    .section-items-photography::before {
+        background-image: url(../img/icons/ALARM@2x.png);
+    }
+    
+    .section-items-design::before {
+        background-image: url(../img/icons/LINE\ GRAPH@2x.png.png);
+    }
+    
+    .section-items-creativity::before {
+        background-image: url(../img/icons/COMPUTER\ _\ OK@2x.png);
+    }
+    
+    .section-items-seo::before {
+        background-image: url(../img/icons/BOOK\ 2@2x.png.png);
+    }
+    
+    .section-items-css::before {
+        background-image: url(../img/icons/HOME@2x.png);
+    }
+    
+    .section-items-digital::before {
+        background-image: url(../img/icons/IMAGE@2x.png);
+    }
 }
