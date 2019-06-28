@@ -62,9 +62,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    /* align-items: flex-end; */
     margin-bottom: 165px;
-    /* padding: 28px 0; */
 } 
 
 .menu {
@@ -99,8 +97,6 @@
 
 .menu__icon {
     fill: #ffffff;
-    /* -webkit-transition: fill 200ms linear;
-    -o-transition: fill 200ms linear; */
     -webkit-transition: fill 200ms linear;
     -o-transition: fill 200ms linear;
     transition: fill 200ms linear;
@@ -133,7 +129,6 @@
     background-color: #fce38a;
     left: 0;
     bottom: -10px;
-    /* transform: scaleX(0); */
     -webkit-transition: 200ms linear;
     -o-transition: 200ms linear;
     transition: 200ms linear;  
@@ -202,6 +197,7 @@
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
     color: #333333;
+    margin-bottom: 20px;
 } 
 
 .flex-conteiner__title {
@@ -302,6 +298,7 @@ h4 {
 .paragraph-conteiner__subtitle {
     font-size: 24px;
     font-family: 'Kaushan Script', cursive;
+    margin-bottom: 20px;
 }
 
 .paragraph-conteiner__title {
@@ -463,8 +460,8 @@ h4 {
     margin-right: 1px;
     background-color: #fce38a;
     background-repeat: no-repeat;
-    padding: 0;
-    margin: 0;
+    /* padding: 0; */
+    /* margin: 0; */
 }
 
 .team-list__icon-link:hover {
@@ -622,7 +619,7 @@ h4 {
     }
     
     .section-items-design::before {
-        background-image: url(../img/icons/LINE\ GRAPH@2x.png.png);
+        background-image: url(../img/icons/LINE\ GRAPH@2x.png.);
     }
     
     .section-items-creativity::before {
@@ -630,7 +627,7 @@ h4 {
     }
     
     .section-items-seo::before {
-        background-image: url(../img/icons/BOOK\ 2@2x.png.png);
+        background-image: url(../img/icons/BOOK\ 2@2x.png.);
     }
     
     .section-items-css::before {
