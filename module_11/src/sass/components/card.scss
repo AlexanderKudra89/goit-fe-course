@@ -1,0 +1,20 @@
+.card-info__name {
+    font-size: 14px;
+    font-family: $main-font, sans-serif;
+    font-weight: 700;
+    padding-top: 30px;
+    color: $article-title-color;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+.card-info__profesion {
+    font-size: 15px;
+    font-family: $article-font;
+    font-weight: 400;
+    color: $article-text-color;
+}
+
+.img-card {
+    margin-right: 27px;
+}

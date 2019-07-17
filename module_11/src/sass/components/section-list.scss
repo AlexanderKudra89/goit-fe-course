@@ -1,0 +1,67 @@
+.section-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    margin-bottom: 90px;
+    height: 240px;
+
+    &__items {
+        position: relative;
+        width: 330px;
+        padding-left: 60px;
+
+        &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            left: 0;
+            width: 32px;
+            height: 32px;    
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        &--photography::before {
+            background-image: url(../images/ALARM.png);
+        }
+
+        &--design::before {
+            background-image: url(../images/LINE-GRAPH.png);
+        }
+
+        &--creativity::before {
+            background-image: url(../images/COMPUTER.png);
+        }
+
+        &--seo::before {
+            background-image: url(../images/BOOK.png);
+        }
+
+        &--css::before {
+            background-image: url(../images/HOME.png);
+        }
+
+        &--digital::before {
+            background-image: url(../images/IMAGE.png);
+        }
+
+        & p {
+            font-size: 15px;
+            font-family: $article-font;
+            color: $article-text-color;
+            line-height: 25px;
+        }
+    }
+}
+
+h4 {
+    font-size: 14px;
+    font-family: $main-font;
+    color: $article-title-color;
+    margin-bottom: 20px;
+    text-transform: uppercase; 
+}
+

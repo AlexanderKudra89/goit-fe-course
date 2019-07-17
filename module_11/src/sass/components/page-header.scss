@@ -1,0 +1,30 @@
+.page-header {
+    background-image: url(../images/Header_BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 1200px;
+    padding: 28px 0 225px;
+    margin: 0 auto;
+
+    &__subtitle {
+        font-family: $support-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 72px;
+        color: $main-white-color;
+        margin-bottom: 42px;
+        text-align: center;
+    }
+
+    &__title {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 700;    
+        font-size: 150px;
+        text-align: center;
+        color: $main-white-color;
+        text-transform: uppercase;
+        margin: 0 0 124px;
+    }
+}

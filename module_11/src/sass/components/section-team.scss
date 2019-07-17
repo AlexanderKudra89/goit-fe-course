@@ -1,0 +1,15 @@
+.section-team {
+    width: 1200px;
+    margin: 0 auto;
+
+    &__paragraph {
+        font-size: 15px;
+        font-family: $article-font;
+        font-weight: 400;
+        color: $article-text-color;
+        text-align: center;
+        line-height: 25px;
+        width: 955px;
+        margin: 0 auto 90px;
+    } 
+}

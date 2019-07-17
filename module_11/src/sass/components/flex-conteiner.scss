@@ -1,0 +1,36 @@
+.flex-conteiner {
+    display: flex;
+    min-height: 70px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 66px;
+    padding-top: 42px;
+
+    &__subtitle  {
+        font-size: 24px;
+        font-family: $support-font, cursive;
+        color: $article-title-color;
+        margin-bottom: 20px;
+    }
+    
+    &__title {
+        font-size: 30px;
+        font-family: $main-font;
+        color: $article-title-color;
+    }
+
+    &::after{
+        content: '';
+        display: block;
+        width: 60px;
+        height: 3px;
+        margin: 42px auto 0;
+        background-color: $second-color;
+    }
+}
+
+.section-conteiner {
+    width: 1200px;
+    margin: 0 auto;
+}
