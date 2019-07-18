@@ -1,0 +1,29 @@
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .page-header {
+        background-image: url(../img/Header_BG@2x.png);     
+    }
+
+    .section-items-photography::before {
+        background-image: url(../img/icons/ALARM@2x.png);
+    }
+    
+    .section-items-design::before {
+        background-image: url(../images/LINE-GRAPH@2x.png.);
+    }
+    
+    .section-items-creativity::before {
+        background-image: url(../images/COMPUTER@2x.png);
+    }
+    
+    .section-items-seo::before {
+        background-image: url(../images/BOOK@2x.png.);
+    }
+    
+    .section-items-css::before {
+        background-image: url(../images/HOME@2x.png);
+    }
+    
+    .section-items-digital::before {
+        background-image: url(../images/IMAGE@2x.png);
+    }
+}

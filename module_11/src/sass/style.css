@@ -501,7 +501,7 @@
 /* CARDS-OVERLAY */
 /* FOOTER */
 
-.page-footer {
+/* .page-footer {
     height: 62px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -511,30 +511,30 @@
             justify-content: center;
     -ms-flex-line-pack: center;
         align-content: center;
-}
+} */
 
-.page-footer__conteiner {
+/* .page-footer__conteiner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     width: 1200px;
     border-top: 1px solid #c3c3c3;
-}
+} */
 
-.page-footer__MoGo {
+/* .page-footer__MoGo {
     color: #333;
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
     margin-right: 526px;
-}
+} */
 
-.page-footer__Laaqiq {
+/* .page-footer__Laaqiq {
     text-decoration: none;
     color: #f38181; 
-}
+} */
 
-.subscribe {
+/* .subscribe {
     -ms-flex-item-align: center;
         align-self: center;
     display: -webkit-box;
@@ -544,9 +544,9 @@
         -ms-flex-pack: end;
             justify-content: flex-end;    
     height: 40px;
-}
+} */
 
-.subscribe__form {
+/* .subscribe__form {
     width: 230px;
     border: 1px solid #ccc;    
     border-right-width: 0;
@@ -557,7 +557,7 @@
     font-style: normal;
     font-size: 15px;     
     color: #ccc;  
-}
+} */
 
 .subscribe__form::-webkit-input-placeholder {
     font-family: "Roboto";
@@ -583,13 +583,13 @@
     color: #ccc;
 }
 
-.subscribe__form::placeholder {
+/* .subscribe__form::placeholder {
     font-family: "Roboto";
     font-weight: 300;
     font-style: normal;
     font-size: 15px;      
     color: #ccc;
-}
+} */
 
 .subscribe__submit {
     width: 150px;

@@ -1,0 +1,23 @@
+.page-footer {
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    &__conteiner {
+        display: flex;
+        width: 1200px;
+        border-top: 1px solid $article-text-color;
+    }
+
+    &__MoGo {
+        color: $article-title-color;
+        align-self: center;
+        margin-right: 523px;
+    }
+
+    &__Laaqiq {
+        text-decoration: none;
+        color: $second-color; 
+    }
+}
